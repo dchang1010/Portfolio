@@ -17,23 +17,22 @@ export default function App() {
           </div>
           <div className="header_main">
             <ul className="header_links">
-              <li className="header_link_wrapper">
+              <li>
                 <a href="./" className="header_link"> Home </a>
               </li>
-              <li className="header_link_wrapper">
+              <li>
                 <a href="/#about" className="header_link"> About </a>
               </li>
-              <li className="header_link_wrapper">
+              <li>
                 <a href="/#project" className="header_link"> Projects </a>
               </li>
-              <li className="header_link_wrapper">
+              <li>
                 <a href="/#contact" className="header_link"> Contact </a>
               </li>
             </ul>
           </div>
         </div>
       </header>
-      {/* <Navbar /> */}
       <div className="home" id="home">
         <div className="home_content">
           <h1 className="home_intro">Hey, I'm Darien Chang</h1>
